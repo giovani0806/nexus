@@ -1,88 +1,121 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Currículo - Giovani santos</title>
+<meta charset="UTF-8">
+<title>Currículo - Giovani Santos</title>
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
+<style>
 
-        .container {
-            width: 800px;
-            margin: auto;
-            background: rgb(255, 255, 255);
-            padding: 30px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f0ff;
+    margin:0;
+    padding:0;
+}
 
-        h1 {
-            color: #3b6b9b;
-            border-bottom: 2px solid #2c3e50;
-        }
+/* caixa principal */
+.container{
+    width: 800px;
+    margin:40px auto;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    overflow:hidden;
+}
 
-        h2 {
-            color: #34495e;
-        }
+/* cabeçalho */
+.header{
+    background: linear-gradient(135deg,#5a189a,#7b2cbf,#9d4edd);
+    color:white;
+    padding:30px;
+}
 
-        p {
-            font-size: 16px;
-        }
+.header h1{
+    margin:0;
+    font-size:32px;
+}
 
-        .info {
-            margin-bottom: 20px;
-        }
+.header p{
+    margin:5px 0;
+}
 
-        ul {
-            margin-top: 5px;
-        }
-    </style>
+/* conteúdo */
+.content{
+    padding:30px;
+}
+
+h2{
+    color:#5a189a;
+    border-bottom:2px solid #cdb4f6;
+    padding-bottom:5px;
+}
+
+p{
+    font-size:16px;
+    line-height:1.5;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:5px;
+}
+
+/* destaque de habilidades */
+.skills li{
+    background:#efe7ff;
+    padding:6px;
+    border-radius:5px;
+    margin-bottom:6px;
+}
+
+</style>
+
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <h1>Giovani Santos</h1>
+<div class="header">
+    <h1>Giovani Santos</h1>
+    <p>Email: giovanesanttos2008@gmail.com</p>
+    <p>Telefone: (68) 99228-3845</p>
+    <p>Rio Branco - Acre</p>
+</div>
 
-        <div class="info">
-            <p><b>Email:</b> giovanesanttos2008@gmail.com</p>
-            <p><b>Telefone:</b> (68) 992283845</p>
-            <p><b>Cidade:</b> Rio Branco - Acre</p>
-        </div>
+<div class="content">
 
-        <h2>Objetivo</h2>
-        <p>Busco uma oportunidade de estágio em prol do meu crecimento.</p>
+<h2>Objetivo</h2>
+<p>Busco uma oportunidade de estágio na área de tecnologia para desenvolver minhas habilidades em programação e adquirir experiência profissional.</p>
 
-        <h2>Formação Acadêmica</h2>
-        <p>Ensino Médio Técnico em Informática para Internet</p>
-        <p>Instituto Federal do Acre - Conclusão prevista: 2026</p>
+<h2>Formação Acadêmica</h2>
+<p><b>Ensino Médio Técnico em Informática para Internet</b></p>
+<p>Instituto Federal do Acre – Conclusão prevista: 2026</p>
 
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML e CSS</li>
-            <li>PHP</li>
-            <li>Banco de Dados MySQL</li>
-            <li>Lógica de Programação</li>
-        </ul>
+<h2>Habilidades</h2>
+<ul class="skills">
+<li>HTML e CSS</li>
+<li>PHP</li>
+<li>Banco de Dados MySQL</li>
+<li>Lógica de Programação</li>
+</ul>
 
+<h2>Idiomas</h2>
+<ul>
+<li>Português – Nativo</li>
+<li>Inglês – Básico</li>
+<li>Espanhol – Básico</li>
+</ul>
 
+</div>
 
-        <h2>Idiomas</h2>
-        <ul>
-            <li>Português – Nativo</li>
-            <li>Inglês - Basico</li>
-            <li>Espanhol - Bsico</li>
-
-        </ul>
-
-    </div>
+</div>
 
 </body>
-
 </html>
+```
